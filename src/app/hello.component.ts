@@ -1,4 +1,6 @@
 import { Component, Input } from '@angular/core';
+import * as XLSX from 'xlsx';  
+import * as FileSaver from 'file-saver';
 
 @Component({
   selector: 'hello',
